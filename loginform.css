@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+p{
+    padding:  0s;
+}
+.body{
+    font-family: "roboto" sans-serif;
+    background-image: url(images/abstract-paper-flower-pattern-656688606-5acfba2eae9ab80038461ca0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.box{
+    width: 380px;
+    background-color: white;
+    padding: 60px 20px;
+    border-radius: 30px;
+    margin: 100px auto;
+}
+.heading,.descrip{
+    text-align: center;
+}
+.heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.descrip{
+    margin: bottom 20px;
+}
+.inp{
+    padding: 10px 20px;
+    font-size: 18px;
+    width: 340px;
+    margin: 14px 0;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 5px;
+}
+.reset-div{
+    margin-bottom: 16px;
+}
+.reset-div a, .signup-div a{
+    color: #938be9;
+    font-weight: 600px;
+}
+.btn-div button{
+    width: 100%;
+    border-radius: 10px 16px;
+    border: 1px solid #0c4058;
+    background-color: #0c4058;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.btn-div button:hover{
+    color: #0c4058;
+    border:1px solid white;
+    background-color: white;
+}
